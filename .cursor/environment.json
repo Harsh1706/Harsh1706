@@ -1,0 +1,17 @@
+{
+  "name": "Harsh1706 Profile",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "preview",
+      "command": "npm run dev",
+      "description": "Live README preview server on http://localhost:3000 (re-reads README.md on each request)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "preview",
+      "port": 3000
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  // Config for markdownlint-cli2. Profile READMEs commonly use inline HTML
+  // and long badge/link lines, so relax those two rules and keep the rest.
+  "config": {
+    "default": true,
+    "MD013": false,
+    "MD033": false
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules"]
+}

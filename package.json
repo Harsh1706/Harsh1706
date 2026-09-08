@@ -1,0 +1,16 @@
+{
+  "name": "harsh1706-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GitHub profile README with a local live preview server and markdown linting.",
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "lint": "markdownlint-cli2 \"**/*.md\""
+  },
+  "devDependencies": {
+    "github-markdown-css": "^5.8.1",
+    "markdownlint-cli2": "^0.14.0",
+    "marked": "^14.1.2"
+  }
+}
